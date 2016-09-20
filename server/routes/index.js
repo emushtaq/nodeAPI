@@ -1,6 +1,7 @@
 import express from 'express';
 import userRoutes from './user';
 import authRoutes from './auth';
+import randomRoutes from './random';
 
 const router = express.Router();	// eslint-disable-line new-cap
 
@@ -14,5 +15,8 @@ router.use('/users', userRoutes);
 
 // mount auth routes at /auth
 router.use('/auth', authRoutes);
+
+// mount random routes at /random
+router.use('/random', randomRoutes);
 
 export default router;
