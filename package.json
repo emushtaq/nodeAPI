@@ -68,6 +68,7 @@
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "5.0.1",
     "ghooks": "^1.2.4",
+    "gtfs": "^0.4.8",
     "gulp": "3.9.1",
     "gulp-babel": "6.1.2",
     "gulp-env": "^0.4.0",
